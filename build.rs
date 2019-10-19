@@ -1,12 +1,14 @@
 // 10/16/19
+const OUT_DIR: &str = "src/api/proto";
+
 fn main() -> Result<(), Box<dyn std::error::Error>>  {
-//    tonic_build::compile_protos("proto/helloworld.proto")?;
     tonic_build::configure()
         .build_server(true)
-        .out_dir("src/api/proto")
+        .build_client(true)
+        .out_dir(OUT_DIR)
         .compile(
-            &["proto/helloworld.proto"],
-            &["proto"],
+            &["proto/api.proto", "proto/apigrpc.proto"],
+            &["proto", "/usr/local/include"],
         )?;
     Ok(())
 }
