@@ -10,6 +10,7 @@ edition = "2018"
 tonic="0.1.0-alpha.3"
 bytes="0.4"
 prost="0.5"
+prost-types = "0.5.0"
 prost-derive="0.5"
 
 tokio = "=0.2.0-alpha.6"
