@@ -7,3 +7,5 @@ run:
 release:
 	@cargo +beta build --release
 
+run_release:
+	@cargo +beta run --release
