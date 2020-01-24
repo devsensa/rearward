@@ -1,0 +1,80 @@
+
+# To do
+- [ ] **Auth**
+  - [ ] Register
+  - [ ] Confirmation
+  - [ ] Resend Confirmation
+  - [ ] Login
+  - [ ] Login With OAuth
+  - [ ] Logout Session
+  - [ ] Logout Specific Session
+  - [ ] Password Recovery
+  - [ ] Password Reset
+- [ ] **Account**
+  - [ ] Get Account
+  - [ ] Get Account Preferences
+  - [ ] Get Account Session
+  - [ ] Get Account Security Log
+  - [ ] Update Account Name
+  - [ ] Update Account Password
+  - [ ] Update Account Email
+  - [ ] Update Account Preferences
+  - [ ] Delete Account
+- [ ] **Teams**
+  - [ ] List Teams
+  - [ ] Get Team
+  - [ ] Get Team Members
+  - [ ] Create Team
+  - [ ] Update Team
+  - [ ] Delete Team
+  - [ ] Create Team Membership
+  - [ ] Resend Create Team Membership
+  - [ ] Update Team Membership Status
+  - [ ] Delete Team Membership
+- [ ] **Storage**
+  - [ ] List Files
+  - [ ] Get File Info
+  - [ ] Get File Preview
+  - [ ] Get File For Download
+  - [ ] Get File For View
+  - [ ] Create File
+  - [ ] Update File
+  - [ ] Delete File
+  - [ ] Check File Exists
+  - [ ] List Paths
+  - [ ] Create Directories
+  - [ ] Rename File
+  - [ ] Rename Directory
+  - [ ] Get File Size
+  - [ ] Get Directory Size
+  - [ ] Update File Info
+- [ ] **Users**
+  - [ ] List Users
+  - [ ] Get User
+  - [ ] Get User Preferences
+  - [ ] Get User Session
+  - [ ] Get User Logs
+  - [ ] Create User
+  - [ ] Update User Status
+  - [ ] Update User Preferences
+  - [ ] Delete User Session
+  - [ ] Delete User Sessions
+- [ ] **Locale**
+  - [ ] Get User Locale
+  - [ ] List Countries
+  - [ ] List Countries Phone Codes
+  - [ ] List Continents
+  - [ ] List Currencies
+- [ ] **Avatars**
+  - [ ] Get Credit Card Icon
+  - [ ] Get Browser Icon
+  - [ ] Get Country Flag
+  - [ ] Get Image From Url
+  - [ ] Get Favicon
+  - [ ] Get QR From Text
+- [ ] **Tasks** ?
+- [ ] **Api Keys** ?
+- [ ] **Webhooks** ?
+- [ ] **Permissions** ?
+- [ ] **Error Codes** ?
+- [ ] **Rate Limiting** ?
